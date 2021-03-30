@@ -7,6 +7,67 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+header{
+  min-height: 50%;
+  padding-top:32px;
+}
+
+main{
+  min-height: 50%;
+  background-color:hsl(0deg, 0%, 60%);
+  border-top: 4px solid hsl(0deg, 0%, 30%);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+header .max-width-wrapper{
+  max-width: 600px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 32px;
+}
+.title{
+  font-size:2rem;
+  padding-bottom: 32px;
+}
+header p{
+  font-size: 1.25rem;
+  max-width: 60%;
+}
+
+.indented-heading{
+  margin:0;
+  font-size:1.5rem;
+  background-color: hsl(45deg, 100%, 50%);
+  max-width:max-content;
+  margin-left: -48px;
+  padding:16px;
+  padding-left: 48px;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+}
+
+main .max-width-wrapper{
+  max-width: 600px;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: white;;
+  padding: 8px 32px;
+  border-bottom: 4px solid hsl(0deg, 0%, 30%);
+}
+
+strong{
+color: hsl(160deg, 100%, 30%);
+}
+
+
+main{
+  background-color:hsl(0deg, 0%, 60%);
+  border-top: 4px solid hsl(0deg, 0%, 30%);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  min-height: 50%;
+}
